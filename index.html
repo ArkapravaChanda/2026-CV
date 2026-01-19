@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arkaprava Chanda — CV</title>
+
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Page */
+    body {
+      font-family: "Inter", Arial, Helvetica, sans-serif;
+      color: #222;
+      background: linear-gradient(135deg, #f0f4ff, #fafafa);
+      line-height: 1.6;
+    }
+
+    /* Card wrapper */
+    .container {
+      width: 92%;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 35px 40px;
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid #dfe7ff;
+      box-shadow: 0px 4px 20px rgba(0, 40, 120, 0.06);
+      animation: fadeIn 0.8s ease;
+    }
+
+    /* Fade animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Header */
+    header h1 {
+      font-size: 34px;
+      font-weight: 700;
+      color: #0a2a6a;
+    }
+
+    header p {
+      font-size: 18px;
+      margin-top: 4px;
+      margin-bottom: 12px;
+      color: #2c3e50;
+    }
+
+    .contact {
+      list-style: none;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    .contact li {
+      margin-bottom: 4px;
+    }
+
+    /* Section Headings */
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 26px 0 10px;
+      padding-bottom: 6px;
+      color: #123a8d;
+      border-bottom: 2px solid #d2ddff;
+    }
+
+    /* Text blocks */
+    section p, section ul {
+      margin-bottom: 12px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    /* Skills & bullets */
+    .skills li,
+    section ul li {
+      margin-left: 18px;
+      margin-bottom: 6px;
+    }
+
+    /* Project cards */
+    .project {
+      margin-bottom: 20px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      background: #f8faff;
+      border-left: 4px solid #446cf6;
+      transition: background 0.2s ease;
+    }
+
+    .project:hover {
+      background: #eef3ff;
+    }
+
+    .project h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      color: #0c2d80;
+    }
+
+    .project p {
+      color: #58657d;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    /* Links */
+    a {
+      color: #214dff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: #002b9c;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .container {
+        padding: 28px;
+      }
+      header h1 {
+        font-size: 26px;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <h1>Arkaprava Chanda</h1>
+      <p>Junior Front-End / Web Developer</p>
+      <ul class="contact">
+        <li>Email: <a href="mailto:dienzer2001@gmail.com">dienzer2001@gmail.com</a></li>
+        <li>Phone: +40 775 570 313</li>
+        <li>GitHub: <a href="https://github.com/ArkapravaChanda" target="_blank">github.com/ArkapravaChanda</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/arkaprava-chanda-37806922b" target="_blank">linkedin.com/in/arkaprava-chanda</a></li>
+        <li>Location: Arad, Romania (Remote-ready)</li>
+      </ul>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>
+        Recent Computer Science graduate specialising in front-end development. Skilled in HTML, CSS, JavaScript, and React, with a
+        strong understanding of responsive layout, accessibility, and Git-based workflows. Proven ability to deploy production-ready UI
+        projects and collaborate in modern software environments.
+      </p>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul class="skills">
+        <li><strong>Front-End:</strong> HTML5, CSS3, Flexbox, Grid, JavaScript ES6+, React (Hooks, Components)</li>
+        <li><strong>Back-End & APIs:</strong> Node.js (basic), Express (basic), REST APIs</li>
+        <li><strong>Tools:</strong> Git, GitHub, NPM, Chrome DevTools, Netlify, GitHub Pages, VS Code</li>
+        <li><strong>Design:</strong> Figma (basic)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects (Public & Deployed)</h2>
+
+      <div class="project">
+        <h3>React Expense Tracker</h3>
+        <p>React, Hooks, LocalStorage</p>
+        <ul>
+          <li>Built a responsive dashboard for income/expense tracking</li>
+          <li>Data persisted using browser storage</li>
+          <li><a href="https://ArkapravaChanda.github.io/Expense-Tracker
+">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/Expense-Tracker">Source Code</a></li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Responsive Portfolio Website</h3>
+        <p>HTML, CSS, JavaScript</p>
+        <ul>
+          <li>Designed and built a mobile-first portfolio using Flexbox & Grid</li>
+          <li>Showcases deployed project repos</li>
+          <li><a href="https://ArkapravaChanda.github.io/my-portfolio/
+">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/my-portfolio">Source Code</a></li>
+        </ul>
+      </div>
+      
+      <div class="project">
+        <h3>Movie Browser App</h3>
+        <p>JavaScript + REST API</p>
+        <ul>
+          <li>Fetched & rendered movie data from an external API</li>
+          <li>Implemented search, pagination & loading states</li>
+          <li><a href="https://arkapravachanda.github.io/movie-browser">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/movie-browser">Source Code</a></li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>React To-Do App</h3>
+        <p>React + LocalStorage</p>
+        <ul>
+          <li>CRUD tasks with state management</li>
+          <li>Component-based architecture styled with modern CSS</li>
+          <li><a href="https://arkapravachanda.github.io/react-todo-app">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/react-todo-app">Source Code</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Experience</h2>
+      <p><strong>Academic & Personal Engineering Projects (2022–Present)</strong></p>
+      <ul>
+        <li>Delivered 6+ deployed front-end projects</li>
+        <li>Used Git branching and commits to track work progress</li>
+        <li>Practiced semantic HTML, responsive UI & debugging workflows</li>
+        <li>Collaborated on team coursework projects and documentation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>B.Tech in Computer Science & Engineering</strong><br>
+      RCC Institute of Information Technology, Kolkata, India — 2024</p>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <p>English (Fluent) | Bengali/Hindi (Native) | Romanian (Basic)</p>
+    </section>
+
+    <section>
+      <h2>Availability</h2>
+      <p>Open to junior front-end or full-stack roles • Remote or hybrid • Immediate start</p>
+    </section>
+
+  </div>
+</body>
+</html>
