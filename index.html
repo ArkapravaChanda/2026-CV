@@ -7,11 +7,7 @@
 
   <style>
     /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
 
     /* Page */
     body {
@@ -41,29 +37,11 @@
     }
 
     /* Header */
-    header h1 {
-      font-size: 34px;
-      font-weight: 700;
-      color: #0a2a6a;
-    }
+    header h1 { font-size: 34px; font-weight: 700; color: #0a2a6a; }
+    header p { font-size: 18px; margin-top: 4px; margin-bottom: 12px; color: #2c3e50; }
 
-    header p {
-      font-size: 18px;
-      margin-top: 4px;
-      margin-bottom: 12px;
-      color: #2c3e50;
-    }
-
-    .contact {
-      list-style: none;
-      font-size: 14px;
-      color: #555;
-      margin-bottom: 25px;
-    }
-
-    .contact li {
-      margin-bottom: 4px;
-    }
+    .contact { list-style: none; font-size: 14px; color: #555; margin-bottom: 25px; }
+    .contact li { margin-bottom: 4px; }
 
     /* Section Headings */
     h2 {
@@ -76,18 +54,10 @@
     }
 
     /* Text blocks */
-    section p, section ul {
-      margin-bottom: 12px;
-      font-size: 15px;
-      color: #333;
-    }
+    section p, section ul { margin-bottom: 12px; font-size: 15px; color: #333; }
 
     /* Skills & bullets */
-    .skills li,
-    section ul li {
-      margin-left: 18px;
-      margin-bottom: 6px;
-    }
+    .skills li, section ul li { margin-left: 18px; margin-bottom: 6px; }
 
     /* Project cards */
     .project {
@@ -98,44 +68,18 @@
       border-left: 4px solid #446cf6;
       transition: background 0.2s ease;
     }
-
-    .project:hover {
-      background: #eef3ff;
-    }
-
-    .project h3 {
-      font-size: 16px;
-      font-weight: 600;
-      margin-bottom: 2px;
-      color: #0c2d80;
-    }
-
-    .project p {
-      color: #58657d;
-      margin-bottom: 6px;
-      font-size: 14px;
-    }
+    .project:hover { background: #eef3ff; }
+    .project h3 { font-size: 16px; font-weight: 600; margin-bottom: 2px; color: #0c2d80; }
+    .project p { color: #58657d; margin-bottom: 6px; font-size: 14px; }
 
     /* Links */
-    a {
-      color: #214dff;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    a:hover {
-      text-decoration: underline;
-      color: #002b9c;
-    }
+    a { color: #214dff; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; color: #002b9c; }
 
     /* Responsive */
     @media (max-width: 600px) {
-      .container {
-        padding: 28px;
-      }
-      header h1 {
-        font-size: 26px;
-      }
+      .container { padding: 28px; }
+      header h1 { font-size: 26px; }
     }
   </style>
 
@@ -148,9 +92,9 @@
       <p>Junior Front-End / Web Developer</p>
       <ul class="contact">
         <li>Email: <a href="mailto:dienzer2001@gmail.com">dienzer2001@gmail.com</a></li>
-        <li>Phone: +40 775 570 313</li>
         <li>GitHub: <a href="https://github.com/ArkapravaChanda" target="_blank">github.com/ArkapravaChanda</a></li>
         <li>LinkedIn: <a href="https://www.linkedin.com/in/arkaprava-chanda-37806922b" target="_blank">linkedin.com/in/arkaprava-chanda</a></li>
+        <li>Portfolio: <a href="https://ArkapravaChanda.github.io/my-portfolio/" target="_blank">arkapravachanda.github.io/my-portfolio</a></li>
         <li>Location: Arad, Romania (Remote-ready)</li>
       </ul>
     </header>
@@ -158,77 +102,63 @@
     <section>
       <h2>Professional Summary</h2>
       <p>
-        Recent Computer Science graduate specialising in front-end development. Skilled in HTML, CSS, JavaScript, and React, with a
-        strong understanding of responsive layout, accessibility, and Git-based workflows. Proven ability to deploy production-ready UI
-        projects and collaborate in modern software environments.
+        Recent Computer Science graduate specialising in front-end development. Skilled in building complex React applications using Tailwind CSS and modern JavaScript. Strong focus on responsive layout, state management, and delivering production-ready UI projects.
       </p>
     </section>
 
     <section>
       <h2>Technical Skills</h2>
       <ul class="skills">
-        <li><strong>Front-End:</strong> HTML5, CSS3, Flexbox, Grid, JavaScript ES6+, React (Hooks, Components)</li>
-        <li><strong>Back-End & APIs:</strong> Node.js (basic), Express (basic), REST APIs</li>
-        <li><strong>Tools:</strong> Git, GitHub, NPM, Chrome DevTools, Netlify, GitHub Pages, VS Code</li>
-        <li><strong>Design:</strong> Figma (basic)</li>
+        <li><strong>Front-End:</strong> React.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Framer Motion</li>
+        <li><strong>State Management & Tools:</strong> Context API, Git, GitHub, NPM, VS Code, Chrome DevTools</li>
+        <li><strong>Libraries:</strong> Recharts (Data Viz), Leaflet (Maps), DND Kit (Drag & Drop)</li>
+        <li><strong>Design:</strong> Responsive UI/UX Principles, Figma (Basic)</li>
       </ul>
     </section>
 
     <section>
-      <h2>Projects (Public & Deployed)</h2>
+      <h2>Featured Projects</h2>
 
       <div class="project">
-        <h3>React Expense Tracker</h3>
-        <p>React, Hooks, LocalStorage</p>
+        <h3>JobHunter Portal (SaaS Job Board)</h3>
+        <p>React, Tailwind CSS, Framer Motion, LocalStorage</p>
         <ul>
-          <li>Built a responsive dashboard for income/expense tracking</li>
-          <li>Data persisted using browser storage</li>
-          <li><a href="https://ArkapravaChanda.github.io/Expense-Tracker
-">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/Expense-Tracker">Source Code</a></li>
+          <li>Developed a premium job filtering platform with URL-based state synchronization.</li>
+          <li>Implemented complex state logic for saving bookmarks and application status locally.</li>
+          <li><a href="https://arkapravachanda.github.io/job-portal/#/">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/job-portal">Source Code</a></li>
         </ul>
       </div>
 
       <div class="project">
-        <h3>Responsive Portfolio Website</h3>
-        <p>HTML, CSS, JavaScript</p>
+        <h3>SaaS Analytics Dashboard</h3>
+        <p>React, Recharts, Context API</p>
         <ul>
-          <li>Designed and built a mobile-first portfolio using Flexbox & Grid</li>
-          <li>Showcases deployed project repos</li>
-          <li><a href="https://ArkapravaChanda.github.io/my-portfolio/
-">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/my-portfolio">Source Code</a></li>
+          <li>Built a responsive admin panel featuring dynamic data visualization and charts.</li>
+          <li>Created user management tables and an interactive, modern UI layout.</li>
+          <li><a href="https://arkapravachanda.github.io/saas-dashboard/#/login">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/saas-dashboard">Source Code</a></li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Luxe Mart (E-Commerce)</h3>
+        <p>React, Leaflet Maps API, Cart Logic</p>
+        <ul>
+          <li>Engineered a full e-commerce flow with persistent cart management.</li>
+          <li>Integrated interactive maps for delivery location tracking.</li>
+          <li><a href="https://arkapravachanda.github.io/luxe-mart/">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/luxe-mart">Source Code</a></li>
         </ul>
       </div>
       
       <div class="project">
-        <h3>Movie Browser App</h3>
-        <p>JavaScript + REST API</p>
+        <h3>Interactive Travel Journal</h3>
+        <p>React, DND Kit, CSS Modules</p>
         <ul>
-          <li>Fetched & rendered movie data from an external API</li>
-          <li>Implemented search, pagination & loading states</li>
-          <li><a href="https://arkapravachanda.github.io/movie-browser">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/movie-browser">Source Code</a></li>
+          <li>Created a cinematic travel log featuring drag-and-drop interactions.</li>
+          <li>Utilized advanced CSS modules for scoped styling and smooth animations.</li>
+          <li><a href="https://arkapravachanda.github.io/travel-journal/">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/travel-journal">Source Code</a></li>
         </ul>
       </div>
 
-      <div class="project">
-        <h3>React To-Do App</h3>
-        <p>React + LocalStorage</p>
-        <ul>
-          <li>CRUD tasks with state management</li>
-          <li>Component-based architecture styled with modern CSS</li>
-          <li><a href="https://arkapravachanda.github.io/react-todo-app">Live Demo</a> | <a href="https://github.com/ArkapravaChanda/react-todo-app">Source Code</a></li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h2>Experience</h2>
-      <p><strong>Academic & Personal Engineering Projects (2022–Present)</strong></p>
-      <ul>
-        <li>Delivered 6+ deployed front-end projects</li>
-        <li>Used Git branching and commits to track work progress</li>
-        <li>Practiced semantic HTML, responsive UI & debugging workflows</li>
-        <li>Collaborated on team coursework projects and documentation</li>
-      </ul>
     </section>
 
     <section>
@@ -240,11 +170,6 @@
     <section>
       <h2>Languages</h2>
       <p>English (Fluent) | Bengali/Hindi (Native) | Romanian (Basic)</p>
-    </section>
-
-    <section>
-      <h2>Availability</h2>
-      <p>Open to junior front-end or full-stack roles • Remote or hybrid • Immediate start</p>
     </section>
 
   </div>
